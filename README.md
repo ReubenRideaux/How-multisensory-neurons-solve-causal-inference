@@ -16,11 +16,11 @@ You can use the pre-trained MultiNets included in the `results` folder, or you c
 
 The code used to train MultiNet include:
 
-  (in-house libraries)
+**_in-house libraries_**
 - `params.py` : defines core network + stimulus parameters
 - `multiNet.py` : defines network architecture
 
-  (training script)
+**_training script_**
 - `train_network.py` : trains a MultiNet network
 
 To train a new MultiNet, ensure the training image sequence files are stored in a subfolder named "dataset", within the same folder as the scripts, and run the `train_network.py` script.
@@ -33,12 +33,12 @@ If there are 5 valid instantiations of MultiNet in the `results` folder, either 
 
 The code used to test MultiNet include:
 
-  (in house libraries)
+**_in house libraries_**
 - `params.py` : defines core network + stimulus parameters
 - `multiNet.py` : defines network architecture
 - `dot_stim_gen.py` : functions for generating dot motion stimuli
 
-  (analysis scripts)
+**_analysis scripts_**
 - `reweighting.py` : Figure 2b-c
 - `decision-bias.py` : Figure 2e-g
 - `congruency.py` : Figure 3
@@ -46,7 +46,7 @@ The code used to test MultiNet include:
 - `tuning.py` : Figure 4b-c
 - `lesion.py` : Figure 4d
 
-  (results visualization scripts)
+**_results visualization scripts_**
 - `reweighting_plot.py` : Figure 2b-c
 - `decision-bias_plot.py` : Figure 2e-g
 - `congruency_plot.py` : Figure 3 & 4a,
