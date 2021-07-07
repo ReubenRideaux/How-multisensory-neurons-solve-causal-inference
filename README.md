@@ -1,4 +1,4 @@
-# READ ME
+# How multisensory neurons solve causal inference
 
 The python scripts/functions stored in this repository are a Key Resource for:
 
