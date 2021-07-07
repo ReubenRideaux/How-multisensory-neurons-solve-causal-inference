@@ -15,6 +15,7 @@ This code can be used to train and test the MultiNet neural network, to reproduc
 You can use the pre-trained MultiNets included in the `results` folder, or you can train new MultiNets.
 
 The code used to train MultiNet include:
+
   (in-house libraries)
 - `params.py` : defines core network + stimulus parameters
 - `multiNet.py` : defines network architecture
@@ -30,7 +31,8 @@ This will initiate the training process. The time it will take to finish will de
 
 If there are 5 valid instantiations of MultiNet in the `results` folder, either the original pre-trained networks or a new ones you have trained, you can test its estimates and properties.
 
-The scripts used to test MultiNet include:
+The code used to test MultiNet include:
+
   (in house libraries)
 - `params.py` : defines core network + stimulus parameters
 - `multiNet.py` : defines network architecture
