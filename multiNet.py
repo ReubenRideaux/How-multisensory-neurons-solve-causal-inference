@@ -6,6 +6,9 @@ drop_rate: an input scalar between 0-1
 Returns:
 the network
 
+[DEPENDENCIES]
++ tensorflow==1.12.0
+
 During training drop_rate > 0.0. During testing drop_rate == 0. If
 drop_rate == 0 the activations are separated from the layers to allow
 interogation of activity before and after non-linear activation is applied."""

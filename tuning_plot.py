@@ -7,7 +7,7 @@ Storrs, Maiello and Welchman, Proceedings of the National Academy of Sciences,
 running this visualization script. **
 
 [DEPENDENCIES]
-+ numpy==1.15.4
++ numpy
 + scipy
 + pickle
 + matplotlib

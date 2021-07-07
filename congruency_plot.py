@@ -6,7 +6,7 @@ the National Academy of Sciences, 2021
 the 'results' folder prior to running this visualization script. **
 
 [DEPENDENCIES]
-+ numpy==1.15.4
++ numpy
 + scipy
 + sklearn
 + matplotlib

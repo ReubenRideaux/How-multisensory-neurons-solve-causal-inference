@@ -2,7 +2,7 @@
 motion image sequences.
 
 [DEPENDENCIES]
-+ numpy==1.15.4
++ numpy
 + scipy
 
 '''

@@ -6,7 +6,7 @@ the National Academy of Sciences, 2021
 to running this visualization script. **
 
 [DEPENDENCIES]
-+ numpy==1.15.4
++ numpy
 + scipy
 + pickle
 + matplotlib
@@ -127,12 +127,9 @@ ax.plot([0, 1], [popt[4, 1], popt[3, 1]]/popt[0, 1],
 # Clean up plot
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
-ax.spines['left'].set_bounds(ax.get_ylim())
-ax.spines['bottom'].set_bounds(0, 1)
-ax.set_xlim([ax.spines['bottom'].get_bounds()[
-            0]-np.diff(ax.spines['bottom'].get_bounds())*.1, ax.spines['bottom'].get_bounds()[1]])
-ax.set_ylim([ax.spines['left'].get_bounds()[
-            0]-np.diff(ax.spines['left'].get_bounds())*.1, ax.spines['left'].get_bounds()[1]])
+ax.spines['bottom'].set_visible(False)
+ax.spines['left'].set_bounds([0,ax.get_ylim()[1]])
+ax.set_ylim([0, ax.spines['left'].get_bounds()[1]])
 ax.xaxis.set_tick_params(width=.5)
 ax.yaxis.set_tick_params(width=.5)
 ax.set_xticks([])

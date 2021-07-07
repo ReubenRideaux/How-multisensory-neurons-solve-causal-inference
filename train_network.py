@@ -7,7 +7,7 @@ must be placed into the 'dataset' folder prior to running this script. **
 
 [DEPENDENCIES]
 + tensorflow==1.12.0
-+ numpy==1.15.4
++ numpy
 + pickle
 + gzip
 + sklearn

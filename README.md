@@ -3,13 +3,15 @@
 The python scripts/functions stored in this repository are a Key Resource for:
 
 Rideaux, Storrs, Maiello & Welchman (2021) How multisensory neurons solve causal
-inference - Proceedings of the National Academy of Sciences
+inference. *Proceedings of the National Academy of Sciences*
 
 This code can be used to train and test the MultiNet neural network, to
 reproduce the results presented in the paper.
 
-The training image sequences required to train the network, in addition to
+**The training image sequences required to train the network, in addition to
 pre-trained networks and results files, can be downloaded from:
+
+https://osf.io/7n8uj/**
 
 ### Instructions
 
